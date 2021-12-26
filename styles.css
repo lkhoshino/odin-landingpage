@@ -16,7 +16,7 @@ body{
     background-color: #1f2937;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 50px;
     border: none;
 }
 
@@ -24,11 +24,24 @@ body{
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
-    gap: 25px;
+    gap: 200px;
+    padding: 50px;
 }
 
 .main2{
     background-color: white;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main3{
+    display: flex;
+
 }
 
 .signup-intro{
@@ -43,6 +56,24 @@ body{
 .signup-intro h1{
     font-size: 48px;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 100px;
+  }
+  
+.info {
+    max-width: 200px;
+}
+
+.text{
+    font-size: 19px;
+    font-weight: normal;
+}
+
 
 button{
     background-color: #3882f6;
@@ -68,4 +99,13 @@ ul{
 h1{
     color: #f9faf8;
     font-size: 24px;
+    font-weight: normal;
+}
+
+h2{
+    text-align: center;
+}
+
+li{
+    font-size: 20px;
 }
