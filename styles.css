@@ -41,7 +41,18 @@ body{
 
 .main3{
     display: flex;
+    background-color:#e5e7eb ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
 
+.quoteauthor{
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 35px;
 }
 
 .signup-intro{
@@ -83,6 +94,12 @@ button{
     padding: 10px;
     color: #f9faf8;
     font-weight: bold;
+}
+
+h3{
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
 }
 
 
